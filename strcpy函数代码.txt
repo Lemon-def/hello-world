@@ -3,10 +3,10 @@ char*Strcpy(char*src)
         int i=0;
         int len=src->length();
         char*p=(char*)malloc(sizeof(char)*(len+1));
-        for(i=0;i<len+1;i++)
+        for(i=0;i<len;i++)
        {
-            src[i]=p[i];
+            p[i]=src[i];
        }
        src[i]='\0';
-      return p;//返回指针
+      return p;
 }
