@@ -8,5 +8,5 @@ char*Strcpy(char*src)
             src[i]=p[i];
        }
        src[i]='\0';
-      return p;
+      return p;//返回指针
 }
