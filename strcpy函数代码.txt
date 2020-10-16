@@ -5,7 +5,10 @@ char*Strcpy(char*src)
         char*p=(char*)malloc(sizeof(char)*(len+1));
         for(i=0;i<len;i++)
        {
+<<<<<<< HEAD
            p[i]=src[i];
+=======
+
        }
        src[i]='\0';
       return p;
